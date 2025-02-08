@@ -1,7 +1,7 @@
 import express from "express";
 import jwt from "jsonwebtoken";
 import Admin from "../models/Admin.js";
-import bcrypt from "bcrypt"; // Ensure bcrypt is installed: npm i bcrypt
+import bcrypt from "bcryptjs"; // Ensure bcrypt is installed: npm i bcrypt
 import dotenv from "dotenv";
 
 dotenv.config();
